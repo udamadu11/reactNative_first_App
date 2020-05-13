@@ -1,15 +1,17 @@
 
 //import libarary
 import React from 'react';
-import {Text,AppRegistry} from 'react-native';
+import {Text,AppRegistry,View} from 'react-native';
 import  Header from './src/components/header.js';
-
-
+import AlbumList from './src/components/AlbumList.js';
 
 //create component
 
 const App = () => (
-      <Header headerText={'Album'} />
+  <View>
+      <Header headerText= {'Album'} />
+      <AlbumList />
+  </View>
   );
 
 

@@ -8,7 +8,7 @@ import AlbumList from './src/components/AlbumList.js';
 //create component
 
 const App = () => (
-  <View>
+  <View style = {{flex: 1}}>
       <Header headerText= {'Album'} />
       <AlbumList />
   </View>
